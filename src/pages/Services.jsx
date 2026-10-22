@@ -52,7 +52,7 @@ export default function Services() {
           Services
         </h1>
         <p className="mt-3 text-navy-700 max-w-2xl mx-auto">
-          Explore each category to see the specific services, brands and
+          Explore each category to see the specific services and
           work included.
         </p>
       </section>

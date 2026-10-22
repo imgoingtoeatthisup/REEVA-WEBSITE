@@ -90,21 +90,21 @@ export const serviceCategories = [
         name: "Voice Evacuation & Public Address",
         description:
           "Voice evacuation and public address systems that deliver clear, automatic announcements across every floor during an emergency.",
-        image: "services-voice-evac-01.jpg",
+        // add a photo later: image: "services-voice-evac-01.jpg",
       },
       {
         id: "fire-extinguishers",
         name: "Fire Extinguishers & Safety Equipment",
         description:
           "Supply, installation, inspection and refilling of fire extinguishers, fire blankets and other fire safety equipment.",
-        // add a photo later: image: "services-fire-extinguishers-01.jpg",
+        image: "services-fire-extinguishers-01.jpg",
       },
       {
         id: "fire-maintenance",
         name: "Fire System Maintenance & AMC",
         description:
           "Scheduled testing and maintenance of all fire and life safety systems under an annual maintenance contract, keeping your building ready for Civil Defence inspections.",
-        // add a photo later: image: "services-fire-maintenance-01.jpg",
+        image: "services-fire-maintenance-01.jpg",
         glossary: ["AMC"],
       },
     ],
@@ -169,10 +169,11 @@ export const serviceCategories = [
         name: "Waterproofing & Leakage Rectification",
         description:
           "Waterproofing and leakage rectification for roofs, terraces, bathrooms and basements, matched to the building's existing structure and materials — diagnosing the source of a leak and fixing it at the root, not just patching the surface.",
-        beforeAfter: {
-          before: "services-waterproofing-before-01.jpg",
-          after: "services-waterproofing-after-01.jpg",
-        },
+        // add real photos later:
+        // beforeAfter: {
+        //   before: "services-waterproofing-before-01.jpg",
+        //   after: "services-waterproofing-after-01.jpg",
+        // },
       },
       {
         id: "carpentry",
@@ -193,7 +194,7 @@ export const serviceCategories = [
         name: "Glass, Aluminium & Fit-Out Extras",
         description:
           "Supply and installation of double-glazing windows, aluminium and door frames, sliding doors and blinds — customized to size, design and colour as part of your fit-out or renovation.",
-        image: "services-glass-aluminium-01.jpg",
+        // add a photo later: image: "services-glass-aluminium-01.jpg",
       },
     ],
   },

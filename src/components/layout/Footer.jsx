@@ -110,7 +110,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-accent-white/10 text-xs text-center py-5 text-accent-white/50">
-        © {new Date().getFullYear()} Reeva Technical Services Contracting LLC
+        © {new Date().getFullYear()} Reeva Technical Services Contracting LLC. All rights reserved.
       </div>
     </footer>
   );
