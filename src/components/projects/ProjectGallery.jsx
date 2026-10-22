@@ -4,7 +4,7 @@ import PlaceholderImage from "../ui/PlaceholderImage";
 /**
  * content-spec.md Design note: "carousel per project where 2+ photos exist;
  * single image where only one exists; never stock." Before/after pairs
- * (e.g. Medalist) render as a fixed side-by-side, not a carousel, since
+ * (before/after pairs) render as a fixed side-by-side, not a carousel, since
  * both images need to stay visible at once for the comparison to land.
  */
 export default function ProjectGallery({ images, beforeAfter }) {

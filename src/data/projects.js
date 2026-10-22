@@ -40,15 +40,20 @@ export const projects = [
     ],
   },
   {
-    id: "medalist",
-    name: "CCTV Camera Replacement — The Medalist",
-    location: "Sports City",
+    id: "iris-bay",
+    name: "Iris Bay",
+    location: "Business Bay",
     description:
-      "Two failed cameras were replaced on the DVR-3 line (channels 5 and 10) with new cameras and a new power supply unit, completed same-day with no disruption to the building's coverage.",
-    beforeAfter: {
-      before: "projects-medalist-before-01.jpg",
-      after: "projects-medalist-after-01.jpg",
-    },
+      "CCTV system upgrade across all floors, plus access control and gate barrier installation, at Business Bay's landmark crescent-shaped office tower, completed in 2024.",
+    images: ["projects-iris-bay-exterior-01.jpg", "projects-iris-bay-install-01.jpg"],
+  },
+  {
+    id: "concorde-tower",
+    name: "Concorde Tower",
+    location: "JLT",
+    description:
+      "CCTV system upgrade across all 45 floors, plus access control and gate barrier installation, at Concorde Tower in Jumeirah Lake Towers, completed in 2024.",
+    images: ["projects-concorde-exterior-01.jpg", "projects-concorde-install-01.jpg"],
   },
 ];
 

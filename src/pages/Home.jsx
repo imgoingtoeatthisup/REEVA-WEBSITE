@@ -30,7 +30,7 @@ export default function Home() {
             SIRA-Approved Technical Contracting for Dubai's Buildings
           </h1>
           <p className="mt-4 text-accent-white/80">
-            CCTV systems designed and installed across 17+ major towers since
+            CCTV systems designed and installed across 40+ major towers since
             2023
           </p>
           <ul className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-accent-white/90">
@@ -74,7 +74,7 @@ export default function Home() {
           {[
             { target: 64, suffix: "+", label: "Projects Completed" },
             { target: 5, suffix: "+", label: "Years in Business" },
-            { target: 17, suffix: "+", label: "Major Towers Served" },
+            { target: 40, suffix: "+", label: "Major Towers Served" },
             { target: 8, suffix: "+", label: "Brand Partners" },
           ].map((stat) => (
             <div key={stat.label} className="text-center px-2">
