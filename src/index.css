@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+/*
+  Reeva theme tokens (from style-guide.md).
+  These become real Tailwind utilities: bg-navy, text-gold, border-navy-700, etc.
+  Never hardcode #1B3A57 / #F5A623 as inline hex in components — use these classes instead.
+*/
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Primary navy scale — base brand navy is navy-900 (#1B3A57) */
+  --color-navy-50: #eef3f7;
+  --color-navy-100: #d6e2eb;
+  --color-navy-300: #7a9ab3;
+  --color-navy-500: #2c5170;
+  --color-navy-700: #214561;
+  --color-navy-800: #1c3a5e;
+  --color-navy-900: #1B3A57; /* brand primary */
+  --color-navy-950: #142a40;
+
+  /* Secondary gold — base brand gold is gold-500 (#F5A623) */
+  --color-gold-100: #fdf0d9;
+  --color-gold-300: #f9cd7a;
+  --color-gold-500: #F5A623; /* brand secondary */
+  --color-gold-600: #e0940f;
+  --color-gold-700: #b8790c;
+
+  /* Accent */
+  --color-accent-white: #FFFFFF;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Auto-scrolling marquee (Trusted At / Brands & Equipment strips).
+   Track is duplicated in the component so this loops seamlessly at -50%. */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll 40s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
