@@ -20,18 +20,18 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-900/90 via-navy-900/75 to-navy-900/90" />
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 py-20 text-center">
           <div className="flex flex-wrap justify-center gap-2 text-xs font-medium text-navy-900 mb-6">
-            {["Since 2021", "SIRA Approved", "Serving Dubai", "Abu Dhabi Coming Soon"].map((badge) => (
+            {["Since 2021", "SIRA & DCD Approved", "Serving Dubai", "Abu Dhabi Coming Soon"].map((badge) => (
               <span key={badge} className="rounded-md bg-gold-500 px-3 py-1">
                 {badge}
               </span>
             ))}
           </div>
           <h1 className="text-3xl md:text-5xl font-bold max-w-3xl mx-auto">
-            SIRA-Approved Technical Contracting for Dubai's Buildings
+            SIRA & DCD Approved Technical Contracting for Dubai's Buildings
           </h1>
           <p className="mt-4 text-accent-white/80">
             CCTV systems designed and installed across 40+ major towers since
-            2023
+            2021
           </p>
           <ul className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-accent-white/90">
             {[

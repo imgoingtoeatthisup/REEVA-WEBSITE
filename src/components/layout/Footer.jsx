@@ -27,7 +27,7 @@ export default function Footer() {
             />
           </span>
           <p className="mt-4 text-sm leading-relaxed max-w-xs">
-            SIRA-Approved Technical Contracting for Dubai's Buildings.
+            SIRA & DCD Approved Technical Contracting for Dubai's Buildings.
           </p>
           <Link
             to="/contact"

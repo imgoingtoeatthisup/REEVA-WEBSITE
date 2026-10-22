@@ -17,8 +17,9 @@ function escapeRegExp(s) {
 }
 
 export default function ServiceItem({ service }) {
+  const hasMedia = service.image || service.beforeAfter;
   return (
-    <div className="grid gap-6 py-6 border-t border-navy-100 first:border-t-0 md:grid-cols-[1fr_1fr] md:items-start">
+    <div className={`grid gap-6 py-6 border-t border-navy-100 first:border-t-0 md:items-start ${hasMedia ? "md:grid-cols-[1fr_1fr]" : ""}`}>
       <div>
         <h4 className="text-lg font-semibold text-navy-900">
           {service.name}
@@ -40,7 +41,7 @@ export default function ServiceItem({ service }) {
         )}
       </div>
 
-      {!service.comingSoon && (
+      {!service.comingSoon && hasMedia && (
         <div>
           {service.beforeAfter ? (
             <div className="grid grid-cols-2 gap-3">
@@ -54,10 +55,7 @@ export default function ServiceItem({ service }) {
               />
             </div>
           ) : (
-            <PlaceholderImage
-              name={service.image}
-              caption="Example installation"
-            />
+            <PlaceholderImage name={service.image} alt={service.name} />
           )}
         </div>
       )}

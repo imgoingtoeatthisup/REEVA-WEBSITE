@@ -6,8 +6,10 @@ const QUOTE_EMAIL = "operation@reevallc.com";
 
 const serviceOptions = [
   "Fire Alarm / Firefighting",
+  "Fire Suppression / Emergency Lighting",
   "CCTV",
   "Access Control",
+  "Speed Gate / Turnstile",
   "Gate Barrier",
   "Intercom",
   "Generator / UPS",

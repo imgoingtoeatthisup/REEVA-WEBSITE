@@ -3,15 +3,14 @@ import { useLocation } from "react-router-dom";
 import { serviceCategories } from "../data/services";
 import ServiceCategoryCard from "../components/services/ServiceCategoryCard";
 
-// Maps Home's quick-nav icon labels (CCTV / Generators / Fit-Out / Emergency)
+// Maps short hash links (CCTV / Generators / Fit-Out / Emergency)
 // to the Services category id whose accordion should open.
-// "Emergency" has no dedicated category yet — Fire Detection/Emergency Systems
-// lives inside MEP & Power, so it opens that card.
 export const quickNavMap = {
   cctv: "elv-security",
   generators: "mep-power",
   "fit-out": "civil-fitout",
-  emergency: "mep-power",
+  emergency: "fire-safety",
+  fire: "fire-safety",
 };
 
 export default function Services() {

@@ -10,10 +10,10 @@ export default function ServicesTeaser() {
           What We Do
         </h2>
         <p className="mt-2 text-navy-700">
-          Three core categories, one point of contact for all of them.
+          Four core categories, one point of contact for all of them.
         </p>
       </div>
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {serviceCategories.map((category) => (
           <Link
             key={category.id}
