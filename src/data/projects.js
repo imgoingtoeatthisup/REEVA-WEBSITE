@@ -1,5 +1,6 @@
 // Source of truth: content-spec.md → "Projects" section.
-// Never use stock photos here — Projects is the proof section. `images`
+// Never use stock photos here — Projects is the proof section. A borrowed
+// building photo (e.g. from Wikimedia) needs a `credit` line for its licence. `images`
 // holds the placeholder filenames from the spec; swap real files into
 // src/assets/images/ later without touching this structure.
 
@@ -11,6 +12,10 @@ export const projects = [
     description:
       "Design, supply and installation of a full CCTV system across all 58 floors, completed with SIRA approval in 2026.",
     images: ["projects-ubora-exterior-01.jpg", "projects-ubora-install-01.jpg"],
+    credit: {
+      text: "Tower photo: trolvag / Wikimedia, CC BY-SA 3.0",
+      href: "https://creativecommons.org/licenses/by-sa/3.0/",
+    },
   },
   {
     id: "trident",
@@ -19,6 +24,7 @@ export const projects = [
     description:
       "A complete multi-system installation across all 45 floors and the retail podium — CCTV, Access Control, Gate Barrier, ANPR and Generator — completed with SIRA approval in 2024.",
     images: ["projects-trident-exterior-01.jpg", "projects-trident-install-01.jpg"],
+    credit: { text: "Tower photo: EditQ / Wikimedia, CC0" },
   },
   {
     id: "taj-grandeur",
@@ -46,6 +52,10 @@ export const projects = [
     description:
       "CCTV system upgrade across all floors, plus access control and gate barrier installation, at Business Bay's landmark crescent-shaped office tower, completed in 2024.",
     images: ["projects-iris-bay-exterior-01.jpg", "projects-iris-bay-install-01.jpg"],
+    credit: {
+      text: "Tower photo: giggel / Wikimedia, CC BY 3.0",
+      href: "https://creativecommons.org/licenses/by/3.0/",
+    },
   },
   {
     id: "concorde-tower",
@@ -54,6 +64,7 @@ export const projects = [
     description:
       "CCTV system upgrade across all 45 floors, plus access control and gate barrier installation, at Concorde Tower in Jumeirah Lake Towers, completed in 2024.",
     images: ["projects-concorde-exterior-01.jpg", "projects-concorde-install-01.jpg"],
+    credit: { text: "JLT skyline photo: Nelemson Guevarra / Unsplash" },
   },
 ];
 

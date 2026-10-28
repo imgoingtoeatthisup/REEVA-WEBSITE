@@ -110,7 +110,7 @@ export default function Careers() {
             — we'll be in touch if there's a fit.
           </p>
         </div>
-        <PlaceholderImage name="careers-team-01.jpg" alt="Engineer working on an electrical panel" aspect="aspect-[4/3]" />
+        <PlaceholderImage name="careers-team-01.jpg" alt="Reeva technician servicing a gate barrier" aspect="aspect-[4/3]" />
       </section>
 
       <section className="max-w-5xl mx-auto px-4 py-10">

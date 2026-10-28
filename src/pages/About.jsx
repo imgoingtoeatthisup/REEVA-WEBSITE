@@ -31,7 +31,7 @@ export default function About() {
             systems, MEP, and civil/interior fit-out.
           </p>
         </div>
-        <PlaceholderImage name="about-team-01.jpg" alt="Reeva engineer testing an electrical panel" aspect="aspect-[4/3]" />
+        <PlaceholderImage name="about-team-01.jpg" alt="Reeva engineer servicing a standby generator" aspect="aspect-[4/3]" />
       </section>
 
       {/* Our story */}

@@ -17,8 +17,7 @@ export default function Projects() {
         </h1>
         <p className="mt-3 text-navy-700 max-w-2xl mx-auto">
           A curated selection of the buildings we've delivered for — from
-          large-scale installs to quick turnarounds. Every photo here is
-          real, never stock.
+          large-scale installs to quick turnarounds.
         </p>
       </section>
 
@@ -29,6 +28,17 @@ export default function Projects() {
             images={project.images}
             beforeAfter={project.beforeAfter}
           />
+          {project.credit && (
+            <p className="mt-2 text-xs text-navy-500">
+              {project.credit.href ? (
+                <a href={project.credit.href} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  {project.credit.text}
+                </a>
+              ) : (
+                project.credit.text
+              )}
+            </p>
+          )}
           <div className="mt-6">
             <p className="text-xs font-semibold tracking-widest text-gold-600 uppercase mb-1">
               {project.location}
